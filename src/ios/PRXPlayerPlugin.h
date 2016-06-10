@@ -29,6 +29,7 @@
 - (void)playremotefile:(CDVInvokedUrlCommand*)command;
 - (void)playfile:(CDVInvokedUrlCommand*)command;
 - (void)pause:(CDVInvokedUrlCommand*)command;
+- (void)unpause:(CDVInvokedUrlCommand*)command;
 - (void)stop:(CDVInvokedUrlCommand*)command;
 - (void)seek:(CDVInvokedUrlCommand*)command;
 - (void)seekto:(CDVInvokedUrlCommand*)command;

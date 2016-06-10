@@ -25,6 +25,10 @@ AudioPlayer.prototype.pause = function(success, error) {
   exec(success, error, "AudioPlayerPlugin", "pause", []);
 };
 
+AudioPlayer.prototype.unpause = function(success, error) {
+  exec(success, error, "AudioPlayerPlugin", "unpause", []);
+};
+
 AudioPlayer.prototype.stop = function(success, error) {
   exec(success, error, "AudioPlayerPlugin", "stop", []);
 };
